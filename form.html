@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <style>
+        body {
+            background-color:peru;
+        }
+        input {
+            background-color:white;
+            border: 2px;
+        }
+    </style>
+</head>
+<body>
+    <h3 style="text-align: center;"><ins>Registration Form AKTU</ins></h3>
+    <fieldset>
+    <legend>Personal Details</legend>
+    
+    <form action="new.html" method="get" target="_blank">
+        <label>First Name:-</label>
+        <input type="text" name="First name" placeholder="First Name" title="enter your first name" required>
+        <input type="image" alt="Mohit" src="mohit photo.jfif" width="150px" height="150px" style="float: right;">
+        <br><br><hr>
+        <label>Last Name:-</label>
+        <input type="text" name="Last Name" placeholder="Last Name" required><br><br><hr>
+        <label>Father's Name:-</label>
+        <input type="text" name="father's name" placeholder="eg. rajendra verma"><br><br><hr>
+        <label>Mother's Name:-</label>
+        <input type="text" name="mother's name" placeholder="eg. rekha verma"><br><br><hr>
+        <label>Email:-</label>
+        <input type="email" name="email" placeholder="eg: xyz@gmail.com" required><br><br><hr>
+        <label>Address:-</label>
+        <textarea name="address" row="2" col="2" placeholder="eg. aplha-1, greater noida, uttar pradesh"></textarea><br><br><hr>
+        <label>ZIP Code:-</label>
+        <input type="number" value="203207"><br><br><hr>
+        <label>Gender:-</label>
+            <input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="female">Female
+            <input type="radio" name="gender" value="Others">Others
+            <br><br><hr>
+        <label>Course:-</label>
+            <select required>
+                <option value="">--SELECT THE COURSE</option>  
+                <option value="BCA">BCA</option>
+                <option value="BSc">BSc</option>  
+                <option value="BEd">BEd</option> 
+                <option value="MCA">MCA</option>
+                <option value="MSc">MSc</option>       
+            </select><br><br><hr>
+        <label>Skills:-</label>
+                <input type="checkbox" name="skills" value="C Language">C Language<br>
+                <input type="checkbox" name="skills" value="Java">Java
+                <input type="checkbox" name="skills" value="HTML 5">HTML 5<br>
+                <input type="checkbox" name="skills" value="CSS">CSS
+                <input type="checkbox" name="skills" value="Javascript">Javascript<br>
+                <input type="checkbox" name="skills" value="SQL">SQL
+                <input type="checkbox" name="skills" value="Python">Python<br>
+                <input type="checkbox" name="skills" value="PHP">PHP
+                <input type="checkbox" name="skills" value="Oracle">Oracle<br>
+                <input type="checkbox" name="skills" value="C++">C++
+                <br><hr>
+            <label>Resume:-</label>
+                <input type="file" value="file"><br><br><hr>
+            <label>Course Start Year:-</label>
+            <input type="month" vaue="month"><br><br><hr>
+            <label>Course End Year:-</label>
+            <input type="month" value="month"><hr>
+        <br>
+        <p style="text-align:center"><input type="Submit" value="Submit"> <input type="reset" value="Reset"></p>
+    </form>
+    </fieldset>
+</body>
+</html>
